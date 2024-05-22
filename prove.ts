@@ -20,4 +20,7 @@ export default function prove(
   }
 }
 
+/**
+ * Anything sufficiently Error-like that will allow us to throw a message.
+ */
 export type ErrorInterface = new (msg: string) => Error;
